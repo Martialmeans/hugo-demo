@@ -1,0 +1,27 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'My New Hugo Site'
+theme: 'papermod'
+
+params:
+  cover: 
+    LinkFullImages: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+  - identifier: categories
+    name: categories
+    url: /categories/
+    weight: 10
+  - identifier: tags
+    name: tags
+    url: /tags/
+    weight: 20
+  - identifier: archives
+    name: archives
+    url: /archives/
+    weight: 30
