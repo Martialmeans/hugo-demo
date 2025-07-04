@@ -1,4 +1,4 @@
-baseURL: 'https://example.org/'
+baseURL: 'https://subtle-biscochitos-18d183.netlify.app/'
 languageCode: 'en-us'
 title: 'My New Hugo Site'
 theme: 'papermod'
